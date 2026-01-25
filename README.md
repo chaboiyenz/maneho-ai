@@ -191,4 +191,52 @@ Then add to `pnpm-workspace.yaml` (already configured for `apps/*` and `packages
 
 ---
 
+## Developer CI/CD Education
+
+This template includes educational CI/CD resources to help you understand deployment pipelines before implementing them.
+
+### What's Included
+
+| Location | Purpose |
+|----------|---------|
+| `scripts/setup-wif.sh` | Workload Identity Federation setup template |
+| `docs/ci-cd/` | Step-by-step CI/CD documentation |
+
+### Important: These Are Templates Only
+
+The files in `scripts/` and `docs/ci-cd/` are **educational templates** with placeholder values. They will NOT trigger any pipelines.
+
+- No `.github/workflows/` files exist
+- All sensitive values use `<YOUR-VALUE-HERE>` placeholders
+- Scripts are for learning, not production use
+
+### Making Pipelines Functional
+
+When you're ready to enable real CI/CD:
+
+1. Read the docs in order (see below)
+2. Replace ALL `<YOUR-VALUE-HERE>` placeholders
+3. Run `scripts/setup-wif.sh` with real GCP credentials
+4. Copy workflow files from docs to `.github/workflows/`
+
+> **WARNING**: Do not copy to `.github/workflows/` until you have completed all setup steps and replaced all placeholders.
+
+### Recommended Reading Order
+
+1. [CI-CD-Pipeline-Guide.md](docs/ci-cd/CI-CD-Pipeline-Guide.md) - Concepts and overview
+2. [CI.md](docs/ci-cd/CI.md) - Continuous Integration workflow
+3. [Deploy-Dev.md](docs/ci-cd/Deploy-Dev.md) - Deployment workflow
+4. [setup-wif.sh](scripts/setup-wif.sh) - Infrastructure setup script
+
+### Version Requirements for CI/CD
+
+| Tool | Minimum Version |
+|------|-----------------|
+| Node.js | 20.x |
+| pnpm | 8.x |
+| Firebase CLI | 13.x |
+| gcloud CLI | Latest |
+
+---
+
 Built with Turborepo
