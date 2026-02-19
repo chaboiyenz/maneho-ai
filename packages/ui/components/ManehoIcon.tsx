@@ -60,10 +60,42 @@ export function ManehoIcon({
         />
 
         {/* Four cardinal spokes */}
-        <line x1="100" y1="30" x2="100" y2="55" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
-        <line x1="100" y1="145" x2="100" y2="170" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
-        <line x1="30" y1="100" x2="55" y2="100" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
-        <line x1="145" y1="100" x2="170" y2="100" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
+        <line
+          x1="100"
+          y1="30"
+          x2="100"
+          y2="55"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+        <line
+          x1="100"
+          y1="145"
+          x2="100"
+          y2="170"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+        <line
+          x1="30"
+          y1="100"
+          x2="55"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
+        <line
+          x1="145"
+          y1="100"
+          x2="170"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+        />
 
         {/* Diagonal spokes */}
         <line
@@ -114,24 +146,82 @@ export function ManehoIcon({
       {/* Scales of Justice */}
       <g id="scales-justice">
         {/* Balance beam */}
-        <line x1="60" y1="95" x2="140" y2="95" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+        <line
+          x1="60"
+          y1="95"
+          x2="140"
+          y2="95"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
 
         {/* Fulcrum point */}
         <polygon points="100,95 97,102 103,102" fill="currentColor" />
 
         {/* Left scale pan */}
-        <rect x="55" y="100" width="20" height="12" rx="2" fill="none" stroke="currentColor" strokeWidth="2" />
+        <rect
+          x="55"
+          y="100"
+          width="20"
+          height="12"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+        />
 
         {/* Right scale pan */}
-        <rect x="125" y="100" width="20" height="12" rx="2" fill="none" stroke="currentColor" strokeWidth="2" />
+        <rect
+          x="125"
+          y="100"
+          width="20"
+          height="12"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+        />
 
         {/* Left suspension lines */}
-        <line x1="60" y1="95" x2="60" y2="100" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        <line x1="70" y1="95" x2="70" y2="100" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <line
+          x1="60"
+          y1="95"
+          x2="60"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+        <line
+          x1="70"
+          y1="95"
+          x2="70"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
 
         {/* Right suspension lines */}
-        <line x1="130" y1="95" x2="130" y2="100" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        <line x1="140" y1="95" x2="140" y2="100" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        <line
+          x1="130"
+          y1="95"
+          x2="130"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+        <line
+          x1="140"
+          y1="95"
+          x2="140"
+          y2="100"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
 
         {/* Gavel head */}
         <rect x="90" y="60" width="20" height="14" rx="1.5" fill="currentColor" />
